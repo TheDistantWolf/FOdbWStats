@@ -1,0 +1,25 @@
+body {
+  background-color: #325999;
+}
+
+#greeting {
+  background-color: #4286f4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin: 15px;
+  text-align: center;
+}
+
+p1 {
+  background-color: #42386f4;
+}
+
+button {
+  background-color: #c4a83a;
+  color: #000000;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  margin: 200px;
+}
