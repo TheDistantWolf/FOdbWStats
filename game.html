@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<!-->
+
+<html>
+<head>
+  <title>Fantasy Online</title>
+
+<button onclick="window.location.href='/moveplayer'">Move Here</button>
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+   <div id="greeting"></div>
+
+  <script src="game.js"></script> 
+</body>
+</html>
+
+</!-->
+
+<html>
+<head>
+	<title>Tetris</title>
+	<style>
+	.grid {
+		border: 1px solid #ddd;
+		display: inline-block;
+		padding: 1px;
+	}
+	.row {
+		margin: 0;
+	}
+	.cell {
+		border: 1px solid #ddd;
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		margin: 1px;
+		vertical-align: top;
+	}
+	</style>
+</head>
+<body>
+
+<div class="grid"></div>
+
+<script src="jquery.min.js"></script>
+<script src="grid.js"></script>
+<script>
+(function() {
+    "use strict";
+
+    var grid = new Grid({
+        rows: 25,
+        cols: 13,
+        render: {
+            placeholder: ".grid"
+        }
+    });
+    grid.getCellAt(2, 1).$el.css('background', 'red');
+}());
+</script>
+
+</body>
+</html>
